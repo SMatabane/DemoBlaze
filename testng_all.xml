@@ -1,0 +1,12 @@
+<suite name="Cucumber Test Suite">
+    <listeners>
+        <listener class-name="com.practice.utilities.ListenersClass" />
+    </listeners>
+    <test name="Cucumber Tests">
+        <classes>
+            <class name="com.practice.runner.OrderRunner"/>
+            <class name="com.practice.stepdef.OrderSteps" />
+        </classes>
+    </test>
+</suite>
+
