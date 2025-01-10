@@ -15,11 +15,13 @@ To test the process of logging in, selecting a Samsung Galaxy S6, adding it to t
     - Password: admin
   - Click on the Login button.
   - Verify that the login is successful and the user is redirected to the homepage/dashboard.
+
 2. **Select Samsung Galaxy S6**
 
   - From the homepage or the product catalog, locate the Samsung Galaxy S6.
   - Click on the Samsung Galaxy S6 to navigate to the product details page.
   - Verify that the correct product details (price, specifications, etc.) are displayed.
+
 3.**Add to Cart**
 
   - On the product details page, click the Add to Cart button.
