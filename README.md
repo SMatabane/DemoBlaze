@@ -40,3 +40,9 @@ To test the process of logging in, selecting a Samsung Galaxy S6, adding it to t
 
 
 ## Reporting
+
+![Logging](./Reporting/Logs.png)        
+
+![Extent_Report](./Reporting/extent.png)
+
+![Console](./Reporting/console.png)
