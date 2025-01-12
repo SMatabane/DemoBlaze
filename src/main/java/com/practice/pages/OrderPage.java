@@ -47,6 +47,12 @@ public class OrderPage extends BaseClass{
 				PageFactory.initElements( getDriver(),this);
 				// TODO Auto-generated constructor stub
 			}
+		 
+		 
+		 public void clickOrder() {
+			 btnOrder.click();
+			 purchase();
+		 }
 		
 		 /**
 		* enter details for placing an order

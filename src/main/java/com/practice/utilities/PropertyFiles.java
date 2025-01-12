@@ -9,13 +9,13 @@ public class PropertyFiles {
 	
 	private Properties pt;
 
-	public PropertyFiles(String file) throws IOException {
+	public PropertyFiles() throws IOException {
 		pt=new Properties();
 		
 		try {
-			FileInputStream files=new FileInputStream(file);
+			FileInputStream files=new FileInputStream("src\\\\main\\\\resources\\\\config.properties");
 			pt.load(files);
-			file.getClass();
+			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

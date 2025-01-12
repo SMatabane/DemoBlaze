@@ -31,9 +31,7 @@ public class BaseClass {
 	}
 	
 	public void initializedriver() throws IOException {
-		String ppath = System.getProperty("user.dir");
-		
-		pt=new PropertyFiles(ppath+"/src/main/resources/config.properties");
+		pt=new PropertyFiles();
 		
 		String browser=pt.readfromProperties("browser");
 		
